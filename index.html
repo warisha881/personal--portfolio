@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Python & Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">MyPortfolio</h2>
+        <ul id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hello, I'm <span>Warisha Khan</span></h1>
+        <h2>Python Developer & Web Developer</h2>
+        <p>
+            I am a BCA student interested in programming,
+            web development and creating useful projects.
+        </p>
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2 class="heading">About Me</h2>
+    <div class="about-box">
+        <h3>Who Am I?</h3>
+        <p>
+            I am a third-year BCA student with an interest in
+            Python programming and web development.
+            I enjoy learning new technologies and building
+            simple and useful applications.
+            My goal is to improve my technical skills and
+            become a professional developer.
+        </p>
+        <p><strong>Education:</strong> Bachelor of Computer Applications (BCA)</p>
+        <p><strong>Location:</strong> Prayagraj, Uttar Pradesh</p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2 class="heading">My Skills</h2>
+    <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Python</div>
+        <div class="card">Web Development</div>
+        <div class="card">GitHub</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2 class="heading">My Projects</h2>
+    <div class="cards">
+        <div class="project-card">
+            <h3>Basic Calculator</h3>
+            <p>A simple calculator website to perform
+            addition, subtraction, multiplication and division.</p>
+            <span>HTML | CSS | JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <h3>AI Chatbox</h3>
+            <p>A chat interface project with different
+            features and an interactive user interface.</p>
+            <span>HTML | CSS | JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>A personal website to showcase my skills,
+            education, projects and certificates.</p>
+            <span>HTML | CSS | JavaScript</span>
+        </div>
+    </div>
+</section>
+
+<section id="certificates" class="section">
+    <h2 class="heading">My Certificates</h2>
+    <div class="cards">
+        <div class="project-card">
+            <h3>Web Development</h3>
+            <p>Training Duration: 1 June – 30 July 2026</p>
+            <p>Duration: 2 Months</p>
+            <h3>python developer</h3>
+            <p>Training Duration:1June-30June</p>
+            <p>Duration:1Month</p>
+        </div>
+        <div class="project-card">
+            <h3>python developer</h3>
+            <p>Training Duration:1June-30June</p>
+            <p>Duration:1Month</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2 class="heading">Contact Me</h2>
+    <div class="contact-box">
+        <p>Email: your-email@example.com</p>
+        <p>Location: Prayagraj, Uttar Pradesh</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Warisha Khan | Personal Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
